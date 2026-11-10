@@ -38,22 +38,6 @@ The system is evaluated on the non-pre-chunked scientific text dataset **[`ccdv/
 
 ---
 
-## 🎯 Assignment Requirements Checklist
-
-| Requirement | Implementation Detail | Status |
-| :--- | :--- | :---: |
-| **Dataset Selection** | Hugging Face `ccdv/arxiv-summarization` (`document` subset, first 100 train docs) | ✅ Completed |
-| **Two Chunking Strategies** | Strategy 1: Fixed-size window (600c/120 overlap); Strategy 2: Semantic sentence-aware (1200c/200 overlap) | ✅ Completed |
-| **Vector DB Indexing** | Local persistent **ChromaDB** with HNSW Cosine distance and `all-MiniLM-L6-v2` embeddings | ✅ Completed |
-| **Retrieval Without Reranking** | Baseline Bi-Encoder dense vector similarity search retrieving top candidate chunks | ✅ Completed |
-| **Retrieval With Reranking** | Dual-stage pipeline using `cross-encoder/ms-marco-MiniLM-L-6-v2` full cross-attention | ✅ Completed |
-| **Conversational Memory** | Context buffer tracking dialog entities; rewrites anaphoric dependent follow-up queries | ✅ Completed |
-| **Evaluation Metrics** | Precision@1, Precision@3, Precision@5, Recall@1, Recall@3, Recall@5, and MRR | ✅ Completed |
-| **Three Empirical Comparisons** | (1) No Rerank vs. Rerank, (2) Strategy 1 vs. Strategy 2, (3) Without vs. With Memory | ✅ Completed |
-| **Artifacts & Deliverables** | Executed Jupyter Notebook (`.ipynb`), CSV/JSON logs, PNG bar charts, animated GIF, README | ✅ Completed |
-
----
-
 ## 🏛 System Architecture
 
 The overall information flow combines dense retrieval, neural reranking, and dynamic conversational context reformulation:
