@@ -1,0 +1,850 @@
+[
+  {
+    "config": "Strategy 1 (Fixed) - No Rerank",
+    "qid": "Q1",
+    "query": "What are the learning rates and RKHS bounds for regularized kernel methods in additive models?",
+    "metrics": {
+      "MRR": 1.0,
+      "Precision@1": 1.0,
+      "Recall@1": 0.25,
+      "Precision@3": 1.0,
+      "Recall@3": 0.75,
+      "Precision@5": 0.8,
+      "Recall@5": 1.0,
+      "qid": "Q1",
+      "config": "Strategy 1 (Fixed) - No Rerank"
+    },
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "doc_id": 0,
+        "score": 0.7335,
+        "is_useful": 1,
+        "snippet": "euclidean space with regularity index has the following asymptotic behavior with : here the power depends linearly on the dimension . similar dimension - dependent bounds for the c..."
+      },
+      {
+        "rank": 2,
+        "doc_id": 0,
+        "score": 0.7294,
+        "is_useful": 1,
+        "snippet": "nice mathematical properties , but it is only locally lipschitz continuous and therefore regularized kernel based methods based on this loss function typically suffer on bad statis..."
+      },
+      {
+        "rank": 3,
+        "doc_id": 0,
+        "score": 0.7249,
+        "is_useful": 1,
+        "snippet": "additive models play an important role in semiparametric statistics . \n this paper gives learning rates for regularized kernel based methods for additive models . \n these learning ..."
+      },
+      {
+        "rank": 4,
+        "doc_id": 0,
+        "score": 0.7064,
+        "is_useful": 0,
+        "snippet": "or each . the additive kernel is also a mercer kernel and defines an rkhs \\right\\}.\\ ] ] however , the multivariate sobolev space ^s)$ ] , consisting of all square integrable funct..."
+      },
+      {
+        "rank": 5,
+        "doc_id": 0,
+        "score": 0.7018,
+        "is_useful": 1,
+        "snippet": "rtant family of models for semiparametric regression or classification . some reasons for the success of additive models are their increased flexibility when compared to linear or ..."
+      }
+    ]
+  },
+  {
+    "config": "Strategy 1 (Fixed) - No Rerank",
+    "qid": "Q2",
+    "query": "Can current reversal occur without bifurcations in deterministic ratchet systems according to Barbi and Salerno?",
+    "metrics": {
+      "MRR": 1.0,
+      "Precision@1": 1.0,
+      "Recall@1": 0.2,
+      "Precision@3": 1.0,
+      "Recall@3": 0.6,
+      "Precision@5": 1.0,
+      "Recall@5": 1.0,
+      "qid": "Q2",
+      "config": "Strategy 1 (Fixed) - No Rerank"
+    },
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "doc_id": 2,
+        "score": 0.8292,
+        "is_useful": 1,
+        "snippet": "in 84 , 258 ( 2000 ) , mateos conjectured that current reversal in a classical deterministic ratchet is associated with bifurcations from chaotic to periodic regimes . \n this is ba..."
+      },
+      {
+        "rank": 2,
+        "doc_id": 2,
+        "score": 0.7784,
+        "is_useful": 1,
+        "snippet": "till holds . that is , it is indeed possible to have current reversals in the absence of bifurcations from chaos to periodic behavior as well as bifurcations without any accompanyi..."
+      },
+      {
+        "rank": 3,
+        "doc_id": 2,
+        "score": 0.7213,
+        "is_useful": 1,
+        "snippet": "central messages of this paper : broad heuristics are rare in chaotic systems , and hence it is critical to understand the ensemble - dependence in any study of the transport prope..."
+      },
+      {
+        "rank": 4,
+        "doc_id": 2,
+        "score": 0.691,
+        "is_useful": 1,
+        "snippet": "rticle displays chaotic dynamics . mateos conjectured a connection between these two phenomena , specifically that the reversal of current direction was correlated with a bifurcati..."
+      },
+      {
+        "rank": 5,
+        "doc_id": 2,
+        "score": 0.69,
+        "is_useful": 1,
+        "snippet": "s conditions for convergent behavior ( that is , independent of the details of the ensemble ) . \n we are then able to present the converged current as a function of parameters , in..."
+      }
+    ]
+  },
+  {
+    "config": "Strategy 1 (Fixed) - No Rerank",
+    "qid": "Q3",
+    "query": "How does finite-time phase variation effect decrease the ability of a random phase diffuser to suppress laser scintillations?",
+    "metrics": {
+      "MRR": 1.0,
+      "Precision@1": 1.0,
+      "Recall@1": 0.2,
+      "Precision@3": 1.0,
+      "Recall@3": 0.6,
+      "Precision@5": 1.0,
+      "Recall@5": 1.0,
+      "qid": "Q3",
+      "config": "Strategy 1 (Fixed) - No Rerank"
+    },
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "doc_id": 3,
+        "score": 0.7944,
+        "is_useful": 1,
+        "snippet": "the effect of a random phase diffuser on fluctuations of laser light ( scintillations ) is studied . \n not only spatial but also temporal phase variations introduced by the phase d..."
+      },
+      {
+        "rank": 2,
+        "doc_id": 3,
+        "score": 0.7692,
+        "is_useful": 1,
+        "snippet": ") . we can see a considerable decrease in caused by the phase diffuser . at the same time , the effect of the phase screen on becomes weaker for finite values of . moreover , compa..."
+      },
+      {
+        "rank": 3,
+        "doc_id": 3,
+        "score": 0.7509,
+        "is_useful": 1,
+        "snippet": "l physical regimes . we have analyzed the effects of a diffuser on scintillations for the case of large - amplitude phase fluctuations . this specific case is very convenient for t..."
+      },
+      {
+        "rank": 4,
+        "doc_id": 3,
+        "score": 0.7368,
+        "is_useful": 1,
+        "snippet": "the rate of phase variations [ does not enter the factor ( [ seventeen ] ) describing the effect of phase diffuser ] . moreover , these quantities become independent of at long pro..."
+      },
+      {
+        "rank": 5,
+        "doc_id": 3,
+        "score": 0.7087,
+        "is_useful": 1,
+        "snippet": "he beam . [ twtw ] . ) our results show the importance of both parameters , and , on the ability of a phase diffuser to suppress scintillations . this work was carried out under th..."
+      }
+    ]
+  },
+  {
+    "config": "Strategy 1 (Fixed) - No Rerank",
+    "qid": "Q4",
+    "query": "What is the measured decay constant in MeV for leptonic decay using the CLEO-c detector?",
+    "metrics": {
+      "MRR": 1.0,
+      "Precision@1": 1.0,
+      "Recall@1": 0.2,
+      "Precision@3": 1.0,
+      "Recall@3": 0.6,
+      "Precision@5": 1.0,
+      "Recall@5": 1.0,
+      "qid": "Q4",
+      "config": "Strategy 1 (Fixed) - No Rerank"
+    },
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "doc_id": 1,
+        "score": 0.7416,
+        "is_useful": 1,
+        "snippet": "we have studied the leptonic decay , via the decay channel , using a sample of tagged decays collected near the peak production energy in collisions with the cleo - c detector . \n ..."
+      },
+      {
+        "rank": 2,
+        "doc_id": 1,
+        "score": 0.7242,
+        "is_useful": 1,
+        "snippet": "of the leptonic decay ( charge - conjugate modes are implied ) , with , from which we determine the decay constant . we use a data sample of events provided by the cornell electron..."
+      },
+      {
+        "rank": 3,
+        "doc_id": 1,
+        "score": 0.6836,
+        "is_useful": 1,
+        "snippet": "he total systematic uncertainty in the branching fraction measurement is estimated to be . in summary , using the sample of tagged decays with the cleo - c detector we obtain the a..."
+      },
+      {
+        "rank": 4,
+        "doc_id": 1,
+        "score": 0.6698,
+        "is_useful": 1,
+        "snippet": "high segmentation of the cleo - c detector and the low multiplicity of the events with which we are concerned , , where is the leptonic decay efficiency . hence , the ratio is inse..."
+      },
+      {
+        "rank": 5,
+        "doc_id": 1,
+        "score": 0.6588,
+        "is_useful": 1,
+        "snippet": "e increased or decreased . there is an indication of a discrepancy between the experimental determinations of and the most recent precision lqcd calculation . this disagreement is ..."
+      }
+    ]
+  },
+  {
+    "config": "Strategy 1 (Fixed) - With Rerank",
+    "qid": "Q1",
+    "query": "What are the learning rates and RKHS bounds for regularized kernel methods in additive models?",
+    "metrics": {
+      "MRR": 1.0,
+      "Precision@1": 1.0,
+      "Recall@1": 0.25,
+      "Precision@3": 1.0,
+      "Recall@3": 0.75,
+      "Precision@5": 0.8,
+      "Recall@5": 1.0,
+      "qid": "Q1",
+      "config": "Strategy 1 (Fixed) - With Rerank"
+    },
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "doc_id": 0,
+        "score": 5.0341,
+        "is_useful": 1,
+        "snippet": "additive models play an important role in semiparametric statistics . \n this paper gives learning rates for regularized kernel based methods for additive models . \n these learning ..."
+      },
+      {
+        "rank": 2,
+        "doc_id": 0,
+        "score": 4.9561,
+        "is_useful": 1,
+        "snippet": "euclidean space with regularity index has the following asymptotic behavior with : here the power depends linearly on the dimension . similar dimension - dependent bounds for the c..."
+      },
+      {
+        "rank": 3,
+        "doc_id": 0,
+        "score": 4.1827,
+        "is_useful": 1,
+        "snippet": "e learning rates for the support vector machines generated by additive kernels for additive models which helps improve the quantitative understanding presented in . the rates are a..."
+      },
+      {
+        "rank": 4,
+        "doc_id": 0,
+        "score": 3.8996,
+        "is_useful": 1,
+        "snippet": "such estimators belong to the large class of regularized kernel based methods over a reproducing kernel hilbert space , see e.g. . in the last years many interesting results on lea..."
+      },
+      {
+        "rank": 5,
+        "doc_id": 0,
+        "score": 3.4642,
+        "is_useful": 0,
+        "snippet": "or each . the additive kernel is also a mercer kernel and defines an rkhs \\right\\}.\\ ] ] however , the multivariate sobolev space ^s)$ ] , consisting of all square integrable funct..."
+      }
+    ]
+  },
+  {
+    "config": "Strategy 1 (Fixed) - With Rerank",
+    "qid": "Q2",
+    "query": "Can current reversal occur without bifurcations in deterministic ratchet systems according to Barbi and Salerno?",
+    "metrics": {
+      "MRR": 1.0,
+      "Precision@1": 1.0,
+      "Recall@1": 0.2,
+      "Precision@3": 1.0,
+      "Recall@3": 0.6,
+      "Precision@5": 1.0,
+      "Recall@5": 1.0,
+      "qid": "Q2",
+      "config": "Strategy 1 (Fixed) - With Rerank"
+    },
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "doc_id": 2,
+        "score": 9.8466,
+        "is_useful": 1,
+        "snippet": "in 84 , 258 ( 2000 ) , mateos conjectured that current reversal in a classical deterministic ratchet is associated with bifurcations from chaotic to periodic regimes . \n this is ba..."
+      },
+      {
+        "rank": 2,
+        "doc_id": 2,
+        "score": 7.0362,
+        "is_useful": 1,
+        "snippet": "central messages of this paper : broad heuristics are rare in chaotic systems , and hence it is critical to understand the ensemble - dependence in any study of the transport prope..."
+      },
+      {
+        "rank": 3,
+        "doc_id": 2,
+        "score": 6.9014,
+        "is_useful": 1,
+        "snippet": "s conditions for convergent behavior ( that is , independent of the details of the ensemble ) . \n we are then able to present the converged current as a function of parameters , in..."
+      },
+      {
+        "rank": 4,
+        "doc_id": 2,
+        "score": 6.242,
+        "is_useful": 1,
+        "snippet": "till holds . that is , it is indeed possible to have current reversals in the absence of bifurcations from chaos to periodic behavior as well as bifurcations without any accompanyi..."
+      },
+      {
+        "rank": 5,
+        "doc_id": 2,
+        "score": 5.7953,
+        "is_useful": 1,
+        "snippet": "llow some handle on characterizing the many different kinds of behavior that are possible in such systems . a later investigation of the mateos conjecture by barbi and salerno , ho..."
+      }
+    ]
+  },
+  {
+    "config": "Strategy 1 (Fixed) - With Rerank",
+    "qid": "Q3",
+    "query": "How does finite-time phase variation effect decrease the ability of a random phase diffuser to suppress laser scintillations?",
+    "metrics": {
+      "MRR": 1.0,
+      "Precision@1": 1.0,
+      "Recall@1": 0.25,
+      "Precision@3": 0.6667,
+      "Recall@3": 0.5,
+      "Precision@5": 0.8,
+      "Recall@5": 1.0,
+      "qid": "Q3",
+      "config": "Strategy 1 (Fixed) - With Rerank"
+    },
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "doc_id": 3,
+        "score": 8.2069,
+        "is_useful": 1,
+        "snippet": "the effect of a random phase diffuser on fluctuations of laser light ( scintillations ) is studied . \n not only spatial but also temporal phase variations introduced by the phase d..."
+      },
+      {
+        "rank": 2,
+        "doc_id": 3,
+        "score": 4.9439,
+        "is_useful": 1,
+        "snippet": ") . we can see a considerable decrease in caused by the phase diffuser . at the same time , the effect of the phase screen on becomes weaker for finite values of . moreover , compa..."
+      },
+      {
+        "rank": 3,
+        "doc_id": 3,
+        "score": 3.9769,
+        "is_useful": 0,
+        "snippet": "r suppressing the intensity fluctuations . an adequate choice of diffusers may be facilitated if we know in detail the effect of finite - time phase variation , introduced by them ..."
+      },
+      {
+        "rank": 4,
+        "doc_id": 3,
+        "score": 2.9637,
+        "is_useful": 1,
+        "snippet": "the rate of phase variations [ does not enter the factor ( [ seventeen ] ) describing the effect of phase diffuser ] . moreover , these quantities become independent of at long pro..."
+      },
+      {
+        "rank": 5,
+        "doc_id": 3,
+        "score": 2.0472,
+        "is_useful": 1,
+        "snippet": "he beam . [ twtw ] . ) our results show the importance of both parameters , and , on the ability of a phase diffuser to suppress scintillations . this work was carried out under th..."
+      }
+    ]
+  },
+  {
+    "config": "Strategy 1 (Fixed) - With Rerank",
+    "qid": "Q4",
+    "query": "What is the measured decay constant in MeV for leptonic decay using the CLEO-c detector?",
+    "metrics": {
+      "MRR": 1.0,
+      "Precision@1": 1.0,
+      "Recall@1": 0.2,
+      "Precision@3": 1.0,
+      "Recall@3": 0.6,
+      "Precision@5": 1.0,
+      "Recall@5": 1.0,
+      "qid": "Q4",
+      "config": "Strategy 1 (Fixed) - With Rerank"
+    },
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "doc_id": 1,
+        "score": 6.4463,
+        "is_useful": 1,
+        "snippet": "of the leptonic decay ( charge - conjugate modes are implied ) , with , from which we determine the decay constant . we use a data sample of events provided by the cornell electron..."
+      },
+      {
+        "rank": 2,
+        "doc_id": 1,
+        "score": 6.2455,
+        "is_useful": 1,
+        "snippet": "he total systematic uncertainty in the branching fraction measurement is estimated to be . in summary , using the sample of tagged decays with the cleo - c detector we obtain the a..."
+      },
+      {
+        "rank": 3,
+        "doc_id": 1,
+        "score": 6.1336,
+        "is_useful": 1,
+        "snippet": "we have studied the leptonic decay , via the decay channel , using a sample of tagged decays collected near the peak production energy in collisions with the cleo - c detector . \n ..."
+      },
+      {
+        "rank": 4,
+        "doc_id": 1,
+        "score": 4.2997,
+        "is_useful": 1,
+        "snippet": "decays provide a clean way to probe the complex , strong interactions that bind the quark and antiquark within the initial - state meson . in these decays , strong interaction effe..."
+      },
+      {
+        "rank": 5,
+        "doc_id": 1,
+        "score": 3.2419,
+        "is_useful": 1,
+        "snippet": "e increased or decreased . there is an indication of a discrepancy between the experimental determinations of and the most recent precision lqcd calculation . this disagreement is ..."
+      }
+    ]
+  },
+  {
+    "config": "Strategy 2 (Semantic) - No Rerank",
+    "qid": "Q1",
+    "query": "What are the learning rates and RKHS bounds for regularized kernel methods in additive models?",
+    "metrics": {
+      "MRR": 1.0,
+      "Precision@1": 1.0,
+      "Recall@1": 0.2,
+      "Precision@3": 1.0,
+      "Recall@3": 0.6,
+      "Precision@5": 1.0,
+      "Recall@5": 1.0,
+      "qid": "Q1",
+      "config": "Strategy 2 (Semantic) - No Rerank"
+    },
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "doc_id": 0,
+        "score": 0.7622,
+        "is_useful": 1,
+        "snippet": "it is well - known that good estimators in additive models are in general less prone to the curse of high dimensionality than good estimators in fully nonparametric models . many e..."
+      },
+      {
+        "rank": 2,
+        "doc_id": 0,
+        "score": 0.708,
+        "is_useful": 1,
+        "snippet": "additive models play an important role in semiparametric statistics . this paper gives learning rates for regularized kernel based methods for additive models . these learning rate..."
+      },
+      {
+        "rank": 3,
+        "doc_id": 0,
+        "score": 0.687,
+        "is_useful": 1,
+        "snippet": "the rest of the paper has the following structure . section [ ratessection ] contains our main results on learning rates for svms based on additive kernels . learning rates for qua..."
+      },
+      {
+        "rank": 4,
+        "doc_id": 0,
+        "score": 0.6848,
+        "is_useful": 1,
+        "snippet": "this is in sharp contrast to kernel methods based on a lipschitz continuous loss function and on a bounded loss function , where results on upper bounds for the maxbias bias and on..."
+      },
+      {
+        "rank": 5,
+        "doc_id": 0,
+        "score": 0.6807,
+        "is_useful": 1,
+        "snippet": "for the same reason we will also not cover sparsity . consistency of support vector machines generated by additive kernels for additive models was considered in . in this paper we ..."
+      }
+    ]
+  },
+  {
+    "config": "Strategy 2 (Semantic) - No Rerank",
+    "qid": "Q2",
+    "query": "Can current reversal occur without bifurcations in deterministic ratchet systems according to Barbi and Salerno?",
+    "metrics": {
+      "MRR": 1.0,
+      "Precision@1": 1.0,
+      "Recall@1": 0.2,
+      "Precision@3": 1.0,
+      "Recall@3": 0.6,
+      "Precision@5": 1.0,
+      "Recall@5": 1.0,
+      "qid": "Q2",
+      "config": "Strategy 2 (Semantic) - No Rerank"
+    },
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "doc_id": 2,
+        "score": 0.7558,
+        "is_useful": 1,
+        "snippet": "mateos conjectured a connection between these two phenomena , specifically that the reversal of current direction was correlated with a bifurcation from chaotic to periodic behavio..."
+      },
+      {
+        "rank": 2,
+        "doc_id": 2,
+        "score": 0.7389,
+        "is_useful": 1,
+        "snippet": "in 84 , 258 ( 2000 ) , mateos conjectured that current reversal in a classical deterministic ratchet is associated with bifurcations from chaotic to periodic regimes . this is base..."
+      },
+      {
+        "rank": 3,
+        "doc_id": 2,
+        "score": 0.7048,
+        "is_useful": 1,
+        "snippet": "the result of our investigation is therefore that the transport properties of a chaotic ratchet are not as simple as the initial conjecture . however , we do find evidence for a ge..."
+      },
+      {
+        "rank": 4,
+        "doc_id": 2,
+        "score": 0.692,
+        "is_useful": 1,
+        "snippet": "in this paper we present results from studies showing how the current depends on the details of the ensemble \n used to generate it , as well as conditions for convergent behavior (..."
+      },
+      {
+        "rank": 5,
+        "doc_id": 2,
+        "score": 0.6801,
+        "is_useful": 1,
+        "snippet": "we consider the impact of different kinds of ensembles of particles on the current and show that the current depends significantly on the details of the initial ensemble . we also ..."
+      }
+    ]
+  },
+  {
+    "config": "Strategy 2 (Semantic) - No Rerank",
+    "qid": "Q3",
+    "query": "How does finite-time phase variation effect decrease the ability of a random phase diffuser to suppress laser scintillations?",
+    "metrics": {
+      "MRR": 1.0,
+      "Precision@1": 1.0,
+      "Recall@1": 0.25,
+      "Precision@3": 1.0,
+      "Recall@3": 0.75,
+      "Precision@5": 0.8,
+      "Recall@5": 1.0,
+      "qid": "Q3",
+      "config": "Strategy 2 (Semantic) - No Rerank"
+    },
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "doc_id": 3,
+        "score": 0.7717,
+        "is_useful": 1,
+        "snippet": "on the other hand , there is a technical restriction on phase diffusers : up to now their characteristic times , , are not smaller than . besides that , in some specific cases ( se..."
+      },
+      {
+        "rank": 2,
+        "doc_id": 3,
+        "score": 0.7466,
+        "is_useful": 1,
+        "snippet": "we have analyzed the effects of a diffuser on scintillations for the case of large - amplitude phase fluctuations . this specific case is very convenient for theoretial analysis be..."
+      },
+      {
+        "rank": 3,
+        "doc_id": 3,
+        "score": 0.6974,
+        "is_useful": 1,
+        "snippet": "the effect of a random phase diffuser on fluctuations of laser light ( scintillations ) is studied . not only spatial but also temporal phase variations introduced by the phase dif..."
+      },
+      {
+        "rank": 4,
+        "doc_id": 3,
+        "score": 0.6677,
+        "is_useful": 0,
+        "snippet": "3 , we see the opposite effect : slow phase variations ( ) result in increased scintillations . there is a simple explanation for this phenomenon : the noise generated by the turbu..."
+      },
+      {
+        "rank": 5,
+        "doc_id": 3,
+        "score": 0.6627,
+        "is_useful": 1,
+        "snippet": "hence , four - wave correlations determine the value of scintillation index . the main effect of a phase diffuser on is to destroy correlations between waves exited at different ti..."
+      }
+    ]
+  },
+  {
+    "config": "Strategy 2 (Semantic) - No Rerank",
+    "qid": "Q4",
+    "query": "What is the measured decay constant in MeV for leptonic decay using the CLEO-c detector?",
+    "metrics": {
+      "MRR": 1.0,
+      "Precision@1": 1.0,
+      "Recall@1": 0.2,
+      "Precision@3": 1.0,
+      "Recall@3": 0.6,
+      "Precision@5": 1.0,
+      "Recall@5": 1.0,
+      "qid": "Q4",
+      "config": "Strategy 2 (Semantic) - No Rerank"
+    },
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "doc_id": 1,
+        "score": 0.698,
+        "is_useful": 1,
+        "snippet": "we have studied the leptonic decay , via the decay channel , using a sample of tagged decays collected near the peak production energy in collisions with the cleo - c detector . we..."
+      },
+      {
+        "rank": 2,
+        "doc_id": 1,
+        "score": 0.6756,
+        "is_useful": 1,
+        "snippet": "the uncertainty in the measurement from this source is estimated to be . other possible sources of systematic uncertainty include ( ) , tag bias ( ) , tracking efficiency ( ) , ide..."
+      },
+      {
+        "rank": 3,
+        "doc_id": 1,
+        "score": 0.6696,
+        "is_useful": 1,
+        "snippet": "the leptonic decay rate can be measured by experiment , and the decay constant can be determined by the equation ( ignoring radiative corrections ) where is the fermi coupling cons..."
+      },
+      {
+        "rank": 4,
+        "doc_id": 1,
+        "score": 0.6543,
+        "is_useful": 1,
+        "snippet": "we obtain combining with our other determination of mev with and ( ) decays , we obtain this result is derived from absolute branching fractions only and is the most precise determ..."
+      },
+      {
+        "rank": 5,
+        "doc_id": 1,
+        "score": 0.6499,
+        "is_useful": 1,
+        "snippet": "physics beyond the standard model ( sm ) might also affect leptonic decays of charmed mesons . depending on the non - sm features , the ratio of could be affected , as could the ra..."
+      }
+    ]
+  },
+  {
+    "config": "Strategy 2 (Semantic) - With Rerank",
+    "qid": "Q1",
+    "query": "What are the learning rates and RKHS bounds for regularized kernel methods in additive models?",
+    "metrics": {
+      "MRR": 1.0,
+      "Precision@1": 1.0,
+      "Recall@1": 0.2,
+      "Precision@3": 1.0,
+      "Recall@3": 0.6,
+      "Precision@5": 1.0,
+      "Recall@5": 1.0,
+      "qid": "Q1",
+      "config": "Strategy 2 (Semantic) - With Rerank"
+    },
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "doc_id": 0,
+        "score": 5.0491,
+        "is_useful": 1,
+        "snippet": "additive models play an important role in semiparametric statistics . this paper gives learning rates for regularized kernel based methods for additive models . these learning rate..."
+      },
+      {
+        "rank": 2,
+        "doc_id": 0,
+        "score": 4.4794,
+        "is_useful": 1,
+        "snippet": "for the same reason we will also not cover sparsity . consistency of support vector machines generated by additive kernels for additive models was considered in . in this paper we ..."
+      },
+      {
+        "rank": 3,
+        "doc_id": 0,
+        "score": 3.7323,
+        "is_useful": 1,
+        "snippet": "it is well - known in the literature of function spaces that the covering numbers of balls of the sobolev space on the cube ^s$ ] of the euclidean space with regularity index has t..."
+      },
+      {
+        "rank": 4,
+        "doc_id": 0,
+        "score": 3.6078,
+        "is_useful": 1,
+        "snippet": "it is well - known that good estimators in additive models are in general less prone to the curse of high dimensionality than good estimators in fully nonparametric models . many e..."
+      },
+      {
+        "rank": 5,
+        "doc_id": 0,
+        "score": 3.5702,
+        "is_useful": 1,
+        "snippet": "this is in sharp contrast to kernel methods based on a lipschitz continuous loss function and on a bounded loss function , where results on upper bounds for the maxbias bias and on..."
+      }
+    ]
+  },
+  {
+    "config": "Strategy 2 (Semantic) - With Rerank",
+    "qid": "Q2",
+    "query": "Can current reversal occur without bifurcations in deterministic ratchet systems according to Barbi and Salerno?",
+    "metrics": {
+      "MRR": 1.0,
+      "Precision@1": 1.0,
+      "Recall@1": 0.2,
+      "Precision@3": 1.0,
+      "Recall@3": 0.6,
+      "Precision@5": 1.0,
+      "Recall@5": 1.0,
+      "qid": "Q2",
+      "config": "Strategy 2 (Semantic) - With Rerank"
+    },
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "doc_id": 2,
+        "score": 9.6701,
+        "is_useful": 1,
+        "snippet": "in 84 , 258 ( 2000 ) , mateos conjectured that current reversal in a classical deterministic ratchet is associated with bifurcations from chaotic to periodic regimes . this is base..."
+      },
+      {
+        "rank": 2,
+        "doc_id": 2,
+        "score": 7.7533,
+        "is_useful": 1,
+        "snippet": "in this paper we present results from studies showing how the current depends on the details of the ensemble \n used to generate it , as well as conditions for convergent behavior (..."
+      },
+      {
+        "rank": 3,
+        "doc_id": 2,
+        "score": 7.6204,
+        "is_useful": 1,
+        "snippet": "mateos conjectured a connection between these two phenomena , specifically that the reversal of current direction was correlated with a bifurcation from chaotic to periodic behavio..."
+      },
+      {
+        "rank": 4,
+        "doc_id": 2,
+        "score": 6.4923,
+        "is_useful": 1,
+        "snippet": "we consider the impact of different kinds of ensembles of particles on the current and show that the current depends significantly on the details of the initial ensemble . we also ..."
+      },
+      {
+        "rank": 5,
+        "doc_id": 2,
+        "score": 4.604,
+        "is_useful": 1,
+        "snippet": "in ( b ) , all ensembles are centered at the stable fixed point , the black line for an ensemble of width , brown a width of and maroon with width . ( c ) is the comparison of the ..."
+      }
+    ]
+  },
+  {
+    "config": "Strategy 2 (Semantic) - With Rerank",
+    "qid": "Q3",
+    "query": "How does finite-time phase variation effect decrease the ability of a random phase diffuser to suppress laser scintillations?",
+    "metrics": {
+      "MRR": 1.0,
+      "Precision@1": 1.0,
+      "Recall@1": 0.25,
+      "Precision@3": 1.0,
+      "Recall@3": 0.75,
+      "Precision@5": 0.8,
+      "Recall@5": 1.0,
+      "qid": "Q3",
+      "config": "Strategy 2 (Semantic) - With Rerank"
+    },
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "doc_id": 3,
+        "score": 7.895,
+        "is_useful": 1,
+        "snippet": "the effect of a random phase diffuser on fluctuations of laser light ( scintillations ) is studied . not only spatial but also temporal phase variations introduced by the phase dif..."
+      },
+      {
+        "rank": 2,
+        "doc_id": 3,
+        "score": 4.4786,
+        "is_useful": 1,
+        "snippet": "on the other hand , there is a technical restriction on phase diffusers : up to now their characteristic times , , are not smaller than . besides that , in some specific cases ( se..."
+      },
+      {
+        "rank": 3,
+        "doc_id": 3,
+        "score": 3.4174,
+        "is_useful": 1,
+        "snippet": "we have analyzed the effects of a diffuser on scintillations for the case of large - amplitude phase fluctuations . this specific case is very convenient for theoretial analysis be..."
+      },
+      {
+        "rank": 4,
+        "doc_id": 3,
+        "score": 3.3075,
+        "is_useful": 1,
+        "snippet": "hence , four - wave correlations determine the value of scintillation index . the main effect of a phase diffuser on is to destroy correlations between waves exited at different ti..."
+      },
+      {
+        "rank": 5,
+        "doc_id": 3,
+        "score": 1.7785,
+        "is_useful": 0,
+        "snippet": "3 , we see the opposite effect : slow phase variations ( ) result in increased scintillations . there is a simple explanation for this phenomenon : the noise generated by the turbu..."
+      }
+    ]
+  },
+  {
+    "config": "Strategy 2 (Semantic) - With Rerank",
+    "qid": "Q4",
+    "query": "What is the measured decay constant in MeV for leptonic decay using the CLEO-c detector?",
+    "metrics": {
+      "MRR": 1.0,
+      "Precision@1": 1.0,
+      "Recall@1": 0.2,
+      "Precision@3": 1.0,
+      "Recall@3": 0.6,
+      "Precision@5": 1.0,
+      "Recall@5": 1.0,
+      "qid": "Q4",
+      "config": "Strategy 2 (Semantic) - With Rerank"
+    },
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "doc_id": 1,
+        "score": 7.1093,
+        "is_useful": 1,
+        "snippet": "we have studied the leptonic decay , via the decay channel , using a sample of tagged decays collected near the peak production energy in collisions with the cleo - c detector . we..."
+      },
+      {
+        "rank": 2,
+        "doc_id": 1,
+        "score": 5.5222,
+        "is_useful": 1,
+        "snippet": "the uncertainty in the measurement from this source is estimated to be . other possible sources of systematic uncertainty include ( ) , tag bias ( ) , tracking efficiency ( ) , ide..."
+      },
+      {
+        "rank": 3,
+        "doc_id": 1,
+        "score": 4.2042,
+        "is_useful": 1,
+        "snippet": "the leptonic decay rate can be measured by experiment , and the decay constant can be determined by the equation ( ignoring radiative corrections ) where is the fermi coupling cons..."
+      },
+      {
+        "rank": 4,
+        "doc_id": 1,
+        "score": 3.5653,
+        "is_useful": 1,
+        "snippet": "physics beyond the standard model ( sm ) might also affect leptonic decays of charmed mesons . depending on the non - sm features , the ratio of could be affected , as could the ra..."
+      },
+      {
+        "rank": 5,
+        "doc_id": 1,
+        "score": 2.7258,
+        "is_useful": 1,
+        "snippet": "we use a data sample of events provided by the cornell electron storage ring ( cesr ) and collected by the cleo - c detector at the center - of - mass ( cm ) energy mev , near peak..."
+      }
+    ]
+  }
+]
