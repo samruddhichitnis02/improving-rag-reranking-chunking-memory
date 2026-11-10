@@ -10,7 +10,7 @@
 
 ---
 
-## 📖 Executive Summary & Workflow Animation
+## Executive Summary & Workflow 
 
 This repository delivers an end-to-end scientific benchmark on **Improving Retrieval-Augmented Generation (RAG)** systems using **Dual Chunking Strategies**, **ChromaDB Vector Indexing**, **Dual-Stage Cross-Encoder Reranking**, and **Multi-Turn Conversational Memory**.
 
@@ -20,7 +20,7 @@ The system is evaluated on the non-pre-chunked scientific text dataset **[`ccdv/
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 1. [Assignment Requirements Checklist](#-assignment-requirements-checklist)
 2. [System Architecture](#-system-architecture)
 3. [Dataset Description & Preprocessing](#-dataset-description--preprocessing)
@@ -38,7 +38,7 @@ The system is evaluated on the non-pre-chunked scientific text dataset **[`ccdv/
 
 ---
 
-## 🏛 System Architecture
+##  System Architecture
 
 The overall information flow combines dense retrieval, neural reranking, and dynamic conversational context reformulation:
 
@@ -83,7 +83,7 @@ flowchart TD
 
 ---
 
-## 📚 Dataset Description & Preprocessing
+##  Dataset Description & Preprocessing
 
 The benchmark utilizes the non-pre-chunked **[`ccdv/arxiv-summarization`](https://huggingface.co/datasets/ccdv/arxiv-summarization)** dataset from Hugging Face:
 - **Configuration:** `document` (full-text non-pre-chunked academic papers)
@@ -99,7 +99,7 @@ The benchmark utilizes the non-pre-chunked **[`ccdv/arxiv-summarization`](https:
 
 ---
 
-## ✂️ Chunking Strategies
+##  Chunking Strategies
 
 Two distinct chunking paradigms are implemented and compared:
 
@@ -125,7 +125,7 @@ Two distinct chunking paradigms are implemented and compared:
 
 ---
 
-## 🗄 Vector Database Indexing & Embedding
+##  Vector Database Indexing & Embedding
 
 - **Vector Database:** [ChromaDB](https://www.trychroma.com/) (`v1.5.9`) persistent client stored under `./chroma_db/`.
 - **Embedding Model:** `sentence-transformers/all-MiniLM-L6-v2` (384-dimensional dense vectors, normalized Cosine distance).
@@ -136,7 +136,7 @@ Two distinct chunking paradigms are implemented and compared:
 
 ---
 
-## 🔄 Dual-Stage Retrieval & Cross-Encoder Reranking
+##  Dual-Stage Retrieval & Cross-Encoder Reranking
 
 Standard RAG architectures suffer from **semantic drift**: Bi-encoders independently map the query and chunks into vector space, often scoring generic introductions or tangential paragraphs higher than the exact passage containing the specific theorem or experimental value.
 
@@ -148,7 +148,7 @@ To solve this, we implement a **Dual-Stage Pipeline**:
 
 ---
 
-## 🧠 Conversational Memory in Multi-Turn Dialogues
+##  Conversational Memory in Multi-Turn Dialogues
 
 In interactive conversational agents, users rarely issue self-contained scientific prompts. They rely on **anaphora** (*it*, *their*, *these*) and topic continuity.
 
@@ -171,7 +171,7 @@ In interactive conversational agents, users rarely issue self-contained scientif
 
 ---
 
-## 📊 Evaluation Metrics & Benchmark Results
+##  Evaluation Metrics & Benchmark Results
 
 ### Evaluation Framework
 For every query, retrieved chunks are evaluated based on **factual utility** (whether the chunk contains the specific answer, theorem, or experimental data needed):
@@ -215,7 +215,7 @@ For every query, retrieved chunks are evaluated based on **factual utility** (wh
 
 ---
 
-## 🖼 Visualizations Gallery
+##  Visualizations Gallery
 
 ### Overall Performance Heatmap
 ![Comprehensive Performance Heatmap](results/images/5_comprehensive_metrics_heatmap.png)
@@ -225,7 +225,7 @@ For every query, retrieved chunks are evaluated based on **factual utility** (wh
 
 ---
 
-## 🚀 Reproducibility & Execution Guide
+##  Reproducibility & Execution Guide
 
 ### Prerequisites
 - Python 3.11+
@@ -260,7 +260,7 @@ jupyter notebook RAG_Improvement_Experiments.ipynb
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```text
 Assignment10/
@@ -287,11 +287,6 @@ Assignment10/
         └── rag_workflow_animation.gif         # 5-stage animated workflow diagram GIF
 ```
 
----
-
-## 🎓 Academic Credit & Attribution
-- **Course:** DATA 266 - Generative AI
-- **Institution:** San José State University (SJSU)
 - **Author:** Samrudha K
 - **Dataset:** Hugging Face `ccdv/arxiv-summarization`
 - **Frameworks:** PyTorch, Sentence-Transformers, HuggingFace, ChromaDB, Matplotlib, Seaborn
