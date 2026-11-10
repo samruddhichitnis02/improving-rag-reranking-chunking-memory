@@ -287,7 +287,7 @@ Assignment10/
         └── rag_workflow_animation.gif         # 5-stage animated workflow diagram GIF
 ```
 
-- **Author:** Samrudha K
+- **Author:** Samruddhi
 - **Dataset:** Hugging Face `ccdv/arxiv-summarization`
 - **Frameworks:** PyTorch, Sentence-Transformers, HuggingFace, ChromaDB, Matplotlib, Seaborn
 
